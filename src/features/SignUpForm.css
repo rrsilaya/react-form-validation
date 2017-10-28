@@ -1,0 +1,72 @@
+.input-row {
+  margin-top: 10px;
+}
+
+input {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  padding: 8px 10px 8px 10px;
+  margin-right: 10px;
+  width: calc(100% - 20px);
+}
+
+input[type='date'] {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+select {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  padding: 8px 10px 8px 10px;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(105, 167, 78);
+  background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid;
+  font-weight: bold;
+  padding: 7px 20px;
+}
+
+.container {
+  width: 45%;
+}
+
+.half-grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-grid .input-row {
+  width: 48%;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.meta {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 0.5em;
+}
+
+.meta .error-message {
+  font-size: 11px;
+  font-weight: bold;
+  color: red;
+}
